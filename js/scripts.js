@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $("#surveyForm").submit(function(event) {
+    event.preventDefault();
     const name = $("input#name").val();
     const age = parseInt($("input#age").val());
     const pronouns = $("select#pronouns").val();
@@ -14,6 +15,5 @@ $(document).ready(function() {
       $("#language3-hidden").show();
     }
 
-    event.preventDefault();
   });
 });
