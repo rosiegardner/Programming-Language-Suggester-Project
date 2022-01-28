@@ -4,15 +4,18 @@ $(document).ready(function() {
     const name = $("input#name").val();
     const age = parseInt($("input#age").val());
     const pronouns = $("select#pronouns").val();
-    const animal = $("select#animal").val();
     const vehical = $("select#vehical").val();
+    const animal = $("select#animal").val();
+    $('#surveyForm').trigger("reset");
+
     
-    if (animal === 'cats', 'dogs', 'snakes' && vehical === 'vans') {
+    if (vehical === 'vans', 'trucks', 'motor' && animal === 'snakes') {
       $("#language1-hidden").show();
-    } else if (animal === 'dogs', 'cats', 'snakes' && vehical === 'trucks') {
+    } else if (vehical === 'vans', 'trucks', 'motor' && animal === 'dogs') {
       $("#language2-hidden").show();
-    } if (animal === 'snakes', 'dogs', 'cats' && vehical === 'motor') {
+    } if (vehical === 'vans', 'trucks', 'motor' && animal === 'cats') {
       $("#language3-hidden").show();
     }
+
   });
 });
