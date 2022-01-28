@@ -12,56 +12,52 @@
       <h1>Programming Language Suggester</h1>
       <p>Interested in coding but not sure where to start? Well, you've come to the right place! The world of tech consists of <strong>many different languages</strong>, which can be intimidating for beginners (and even our senior coders). It's all trial and error until we find what works best for us. No need to worry though, we're here to help point you in the right direction.</p>
       <p>We'll suggest 1(one) of our 3(three) different languages; <em>Python</em>, <em>Ruby</em>, or <em>JavaScript</em>. Take our survey below and lets suggest the perfect language for you!</p>
-
-      <form>
-        <div class="information">
-          <label for="name">Name:</label>
-          <input id="name" type="text">
-          <label for="age">Age:</label>
-          <input id="name" type="text">
-          <label for="pronouns">Pronouns:</label>
-          <select id="pronouns">
-            <option value="they-them">They/Them</option>
-            <option value="she-her">She/Her</option>
-            <option value="he-him">He/Him</option>
-          </select>
-        </div>
-        <div class="survey">
-          <label for="catsOrDogs">Cats or Dogs?</label>
-          <select id="catsOrDogs">
-            <option value="cats">Cats</option>
-            <option value="dogs">Dogs</option>
-          </select>
-        </div>
-        <div class="survey">
-          <label for="vansOrTrucks">Vans or Trucks?</label>
-          <select id="vansOrTrucks">
-            <option value="vans">Vans</option>
-            <option value="trucks">Trucks</option>
-          </select>
-        </div>
-        <div class="survey">
-          <label for="punkOrMetal">Punk or Metal?</label>
-          <select id="punkOrMetal">
-            <option value="punk">Punk</option>
-            <option value="metal">Metal</option>
-          </select>
-        </div>
-        <div class="survey">
-          <label for="questionForm1">Hobbies:</label>
-          <textarea class="form-control" id="questionForm1" rows="2"></textarea>
-        </div>
-        <div class="survey">
-          <label for="questionForm2">Interests:</label>
-          <textarea class="form-control" id="questionForm2" rows="3"></textarea>
-        </div>
-        <div class="survey">
-          <label for="questionForm3">What made you want to learn code?</label>
-          <textarea class="form-control" id="questionForm3" rows="4"></textarea>
-        </div>
-
-        <button type="submit" class="btn">Submit!</button>
-      </form>
+      <div>
+        <form id="surveyForm">
+          <div class="information">
+            <label for="name">Name:</label>
+            <input id="name" type="text">
+            <label for="age">Age:</label>
+            <input id="name" type="text">
+            <label for="pronouns">Pronouns:</label>
+            <select class="form-control" id="pronouns">
+              <option value="they-them">They/Them</option>
+              <option value="she-her">She/Her</option>
+              <option value="he-him">He/Him</option>
+            </select>
+          </div>
+          <div class="survey">
+            <label for="animal">Cats, Dogs or Snakes?</label>
+            <select class="form-control" id="animal">
+              <option value="cats">Cats</option>
+              <option value="dogs">Dogs</option>
+              <option value="snakes">Snakes</option>
+            </select>
+          </div>
+          <div class="survey">
+            <label for="vehical">Vans, Trucks or Motorcycles?</label>
+            <select class="form-control" id="vehical">
+              <option value="vans">Vans</option>
+              <option value="trucks">Trucks</option>
+              <option value="motor">Motorcycles</option>
+            </select>
+          </div>
+          <div class="survey">
+            <label for="questionForm1">Hobbies:</label>
+            <textarea class="form-control" id="questionForm1" rows="2"></textarea>
+          </div>
+          <div class="survey">
+            <label for="questionForm2">Interests:</label>
+            <textarea class="form-control" id="questionForm2" rows="3"></textarea>
+          </div>
+          <div class="survey">
+            <label for="questionForm3">What made you want to learn code?</label>
+            <textarea class="form-control" id="questionForm3" rows="4"></textarea>
+          </div>
+          
+          <button type="submit" class="btn">Submit!</button>
+        </form>
+      </div>
 
       <div id="language1-hidden">
         <h2>Python!</h2>
