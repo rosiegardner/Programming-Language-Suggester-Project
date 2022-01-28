@@ -1,0 +1,37 @@
+body {
+  background-color: tan;
+}
+
+.h1-header {
+  border: 10px solid rgb(4, 43, 4);
+  padding: 20px;
+  background-color: rgb(105, 90, 60);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.information {
+
+}
+
+.survey {
+
+}
+
+.btn {
+  text-align: center;
+}
+
+#language1-hidden {
+  display: none;
+}
+
+#language2-hidden {
+  display: none;
+}
+
+#language3-hidden {
+  display: none;
+}
