@@ -14,6 +14,5 @@ $(document).ready(function() {
     } if (animal === 'snakes', 'dogs', 'cats' && vehical === 'motor') {
       $("#language3-hidden").show();
     }
-
   });
 });
