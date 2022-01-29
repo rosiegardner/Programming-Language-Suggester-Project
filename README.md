@@ -21,7 +21,7 @@ This webpage was created to gather input from user and return the result.
 * Open index.html in your browser
 
 ## Known Bugs
-* Return results stack when user resubmits.
+* NO KNOWN BUGS
 
 ## License
 MIT License
