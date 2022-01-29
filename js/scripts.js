@@ -1,11 +1,15 @@
 $(document).ready(function() {
   $("#surveyForm").submit(function(event) {
+    event.preventDefault();
     const name = $("input#name").val();
     const age = parseInt($("input#age").val());
     const pronouns = $("select#pronouns").val();
     const vehical = $("select#vehical").val();
     const animal = $("select#animal").val();
-    $("surveyForm").trigger("#reset")
+    $("#language1-hidden").slideToggle();
+    $("#language2-hidden").slideToggle();
+    $("#language3-hidden").slideToggle();
+    $("#surveyForm").trigger("reset");
 
     
     if (vehical === 'vans', 'trucks', 'motor' && animal === 'snakes') {
@@ -21,7 +25,6 @@ $(document).ready(function() {
       $("#language2-hidden").hide();
       $("#language3-hidden").show();
     }
-      event.preventDefault();
 
   });
 });
