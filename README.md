@@ -15,7 +15,7 @@
 This webpage was created to gather input from user and return the result. 
 
 ## Setup/Insallation Requirements
-* https://github.com/rosiegardner
+* https://rosiegardner.github.io/Programming-Language-Suggester-Project/
 * Clone this repository to your desktop
 * Navigate to the top of directory
 * Open index.html in your browser
