@@ -9,7 +9,6 @@ $(document).ready(function() {
     $("#language1-hidden").slideToggle();
     $("#language2-hidden").slideToggle();
     $("#language3-hidden").slideToggle();
-    $("#surveyForm").trigger("reset");
 
     
     if (vehical === 'vans', 'trucks', 'motor' && animal === 'snakes') {
